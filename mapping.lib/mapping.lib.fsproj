@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Primitive.fs" />
+    <Compile Include="Feature.fs" />
+    <Compile Include="C64Consts.fs" />
+    <Compile Include="Palette.fs" />
+    <Compile Include="Matrix.fs" />
+    <Compile Include="Image.fs" />
+    <Compile Include="Filter.fs" />
+    <Compile Include="Contour.fs" />
+    <Compile Include="Window.fs" />
+    <Compile Include="Corner.fs" />
+    <Compile Include="Motion.fs" />
+    <Compile Include="Range.fs" />
+    <Compile Include="Sketch.fs" />
+    <Compile Include="Locate.fs" />
+    <Compile Include="Print.fs" />
+    <Compile Include="World.fs" />
+    <Compile Include="Stitcher.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Update="FSharp.Core" Version="4.7.1" />
+  </ItemGroup>
+
+</Project>
